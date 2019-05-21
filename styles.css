@@ -1,0 +1,49 @@
+body {
+  background-color: #F9E2C9;
+  font-family: sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+#form-outer {
+  background-color: white;
+  margin: auto;
+  width: 75%;
+  max-width: 900px;
+  min-width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+}
+#description {
+  text-align: center;
+}
+.rows {
+  margin: 3%;
+}
+#submit-button {
+  text-align: center;
+}
+.labels {
+  margin: 2% 0%;
+}
+#dropdown {
+  margin: 1%
+}
+.radios {
+  margin: 1%;
+}
+.checks {
+  margin: 1%;
+}
+.text-area {
+  margin: 1%;
+}
+#submit {
+  border-radius: 7px;
+  width: 75px;
+  height: 40px;
+  background-color: #007581;
+  color: white;
+  border: solid;
+}

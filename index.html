@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+  <title>Survey Form</title>
+</head>
+<body>
+  <header> 
+    <h1 id="title">Survey Form<h1>
+  </header>
+  <div id="form-outer">
+    <p id="description">Let us know how we can improve at our company.</p>
+    
+    <form id="survey-form">
+      
+      <div class="rows">
+        <div class="forms">
+          <label class="labels" id="name-label" for="name">* Name: </label>
+          <input class="input-field" id="name" name="firstlastname" type="text" placeholder="Enter your name" required>
+        </div>
+      </div>
+      
+      <div class="rows">
+        <div class="forms">
+          <label class="labels" id="email-label" for="email">* Email: </label>
+          <input class="input-field" id="email" name="email" type="email" placeholder="Enter your Email Address" required>
+        </div>
+      </div>
+      
+      <div class="rows">
+        <div class="forms">
+          <label class="labels" id="number-label" for="number">* Age: </label>
+          <input class="input-field" id="number" name="age" type="number" min="1" max="125" placeholder="Age" required>
+        </div>
+      </div>
+      
+      <div class="rows">
+        <div class="forms">
+          <label class="labels" id="dropdown-label" for="dropdown">How often do you shop here?</label>
+          </br>
+          <select id="dropdown" name="position" class="input-dropdown" required>
+            <option disabled value>Select an option</option>
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+            <option value="monthly">Monthly</option>
+            <option value="not-often">Not Often</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="rows">
+        <div class="forms">
+          <label class="labels" id="radio-label" for="radio">Gender: </label>
+        </div>
+        <div class="radios">
+          <input name="gender" type="radio" value="male"> Male
+          </br>
+          <input name="gender" type="radio" value="female"> Female
+        </div>
+      </div>
+      
+      <div class="rows">
+        <div class="forms">
+          <label class="labels" id="checkbox-label" for="checkbox">What items type of items do you usually purchase? </label>
+        </div>
+        <div class="checks">
+          <input name="items" type="checkbox" value="groceries"> Groceries
+          </br>
+          <input name="items" type="checkbox" value="clothing"> Clothing
+          </br>
+          <input name="items" type="checkbox" value="toiletries"> Toiletries
+          </br>
+          <input name="items" type="checkbox" value="sports-equip"> Sports Equipment
+          </br>
+          <input name="items" type="checkbox" value="hardware"> Hardware
+          </br>
+          <input name="items" type="checkbox" value="garden-supplies"> Garden Supplies
+        </div>
+      </div>
+      
+      <div class="rows">
+        <div class="forms">
+          <label class="labels" id="textarea-label" for="comments">How can we imporve? </label>
+        </div>
+        <div class="text-area">
+          <textarea id="comments" class="input-field" name="comment" rows="7" cols="40" placeholder="Enter your suggestions here..."></textarea>
+        </div>
+      </div>
+      
+      <div id="submit-button">
+        <input id="submit" type="submit">
+      </div>
+
+    </form>
+    
+  </div>
+</body>
+</html>
